@@ -60,10 +60,13 @@ public class TV {
         this.canal = canal;
     }
     
-    public int getNumTV(){
+    public int getNumTV() {
         return TV.numTV;
     }
 
+    public void setNumTV(int numTV) {
+        TV.numTV = numTV
+    }
     public void turnOn() {
         this.estado = true;
     }
